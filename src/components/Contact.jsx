@@ -8,16 +8,16 @@ const Contact = () => {
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                     <div className='flex flex-col'>
                         <label className='uppercase text-sm py-2'>Name</label>
-                        <input className='border-2 rounded-lg p-3 flex border-gray-300' type='text' name='name' placeholder='Enter your name'></input>
+                        <input className='border-2 rounded-lg p-3 flex border-gray-300' type='text' autoComplete='on' name='name' placeholder='Enter your name'></input>
                     </div>
                     <div className='flex flex-col'>
                         <label className='uppercase text-sm py-2'>Phone</label>
-                        <input className='border-2 rounded-lg p-3 flex border-gray-300' type='text' name='phone' placeholder='Enter your phone number'></input>
+                        <input className='border-2 rounded-lg p-3 flex border-gray-300' type='text' name='phone' autoComplete='on' placeholder='Enter your phone number'></input>
                     </div>
                 </div>
                 <div className='flex flex-col py-2'>
                     <label className='uppercase text-sm py-2'>Email</label>
-                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type='email' name='email' placeholder='Enter your email'></input>
+                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type='email' name='email' autoComplete='on' placeholder='Enter your email'></input>
                 </div>
                 <div className='flex flex-col py-2'>
                     <label className='uppercase text-sm py-2'>Subject</label>
