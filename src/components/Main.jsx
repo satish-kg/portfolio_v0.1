@@ -6,7 +6,7 @@ import {FaTwitter, FaLinkedinIn, FaInstagram, FaFacebook} from 'react-icons/fa';
 const Main = () => {
     return (
         <div id='main'>
-            <img className='w-full h-screen object-cover scale-x-[-1]' src={bg_image}></img>
+            <img className='w-full h-screen object-cover  scale-x-[-1]' src={bg_image}></img>
             <div className='w-full h-screen left-0 top-0 absolute bg-white/50'>
                 <div className='max-w-[700px] w-full h-full m-auto flex flex-col justify-center lg:items-start items-center'>
                     <h1 className='sm:text-5xl text-3xl font-bold text-gray-800'>I am Satish Kumar.</h1>
