@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import Sidenav from 'src/components/sidenav';
+import Sidenav from './components/sidenav';
 // import Sidenav from './components/sidenav';
-import Main from 'src/components/Main';
-import Work from 'src/components/Work';
-import Projects from 'src/components/Projects';
-import Contact from 'src/components/Contact'
+import Main from './components/Main';
+import Work from './components/Work';
+import Projects from './components/Projects';
+import Contact from './components/Contact'
 
 function App() {
 
