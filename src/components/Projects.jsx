@@ -9,7 +9,7 @@ const Projects = () => {
     return (
         <div id='projects' className='max-w-[1040] m-auto p-4 py-16 md:pl-20'>
             <h1 className='text-4xl font-bold text-center text-[#001b5e] pb-5'>Projects</h1>
-            <p className='text-center py-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nemo temporibus quos velit, reiciendis nobis iste repellendus eum at voluptate tempora quisquam qui sed minima? Tempora excepturi voluptas eveniet ullam.</p>
+            <p className='text-center py-8'>Check out some of my most recent projects. Click <a href='https://github.com/satish-kg?tab=repositories' className='text-[#24479e]'>here</a> for more.</p>
             <div className='grid sm:grid-cols-2 gap-12'>
                 <ProjectItem img={placeholder1} title='Pizza Store' console= 'Next.js and MongoDB Atlas based application with CRUD functionality.' url="https://pizzastore-snowy.vercel.app/"/>
                 <ProjectItem img={placeholder2} title='Meme Maker' console='React Vite based application. User can enter text and download the meme.'  url="https://peppy-bunny-524ca6.netlify.app/"/>

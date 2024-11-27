@@ -28,7 +28,7 @@ const Sidenav = () => {
                             <AiOutlineProject size={20}/>
                             <span className="pl-4">Project</span>
                         </a>
-                        <a onClick={handleNav} href="https://github.com/satish-kg/resume_satish/blob/main/-Satish-Kumar-.pdf"  className="w-[75%] m-2 flex justify-center items-center rounded-full shadow shadow-gray-400 p-4 bg-gray-100 text-lg font-bold cursor-pointer hover:bg-gray-200 hover:scale-110 ease-in duration-300">
+                        <a onClick={handleNav} href="https://github.com/satish-kg/resume_satish/blob/main/-Satish-Kumar-.pdf" target="_blank" rel="noopener noreferrer" className="w-[75%] m-2 flex justify-center items-center rounded-full shadow shadow-gray-400 p-4 bg-gray-100 text-lg font-bold cursor-pointer hover:bg-gray-200 hover:scale-110 ease-in duration-300">
                             <BsPerson size={20}/>
                             <span className="pl-4">Resume</span>
                         </a>
@@ -52,7 +52,7 @@ const Sidenav = () => {
                     <a href="#projects" className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 curson-pointer hover:scale-110 ease-in duration-300 hover:bg-gray-200">
                         <AiOutlineProject size={20}/>
                     </a>
-                    <a href="#main" className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 curson-pointer hover:scale-110 ease-in duration-300 hover:bg-gray-200">
+                    <a href="https://github.com/satish-kg?tab=repositories" target="_blank" rel="noopener noreferrer" className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 curson-pointer hover:scale-110 ease-in duration-300 hover:bg-gray-200">
                         <BsPerson size={20}/>
                     </a>
                     <a href="#contact" className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 curson-pointer hover:scale-110 ease-in duration-300 hover:bg-gray-200">

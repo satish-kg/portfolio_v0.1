@@ -13,7 +13,7 @@ const data = [
         year : 2023,
         title : 'Post Graduation at University of Allahabad',
         duration : '2 years',
-        details : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.'
+        details : 'Current cumulative CGPA of 7.7/10.'
     },
     {
         year : 2021,
