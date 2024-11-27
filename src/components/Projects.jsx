@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectItem from './ProjectItem'
 import placeholder1 from '../assets/pizza_thumb.png'
-import placeholder2 from '../assets/mgs2.jpg'
+import placeholder2 from '../assets/meme_thumb.png'
 import placeholder3 from '../assets/mgs3.jpg'
 import placeholder4 from '../assets/mgs4.jpg'
 
@@ -12,7 +12,7 @@ const Projects = () => {
             <p className='text-center py-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nemo temporibus quos velit, reiciendis nobis iste repellendus eum at voluptate tempora quisquam qui sed minima? Tempora excepturi voluptas eveniet ullam.</p>
             <div className='grid sm:grid-cols-2 gap-12'>
                 <ProjectItem img={placeholder1} title='Pizza Store' console= 'Next.js and MongoDB Atlas based application with CRUD functionality.' url="https://pizzastore-snowy.vercel.app/"/>
-                <ProjectItem img={placeholder2} title='Project 2' console='PS2'  url=""/>
+                <ProjectItem img={placeholder2} title='Meme Maker' console='React Vite based application. User can enter text and download the meme.'  url="https://peppy-bunny-524ca6.netlify.app/"/>
                 <ProjectItem img={placeholder3} title='Project 3' console='PS2'  url=""/>
                 <ProjectItem img={placeholder4} title='Project 4' console='PS3'  url=""/>
             </div>

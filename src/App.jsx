@@ -8,13 +8,15 @@ import Contact from './components/Contact'
 function App() {
 
   return (
-    <div>
-      <Sidenav />
-      <Main />
-      <Work />
-      <Projects />
-      <Contact />
-    </div>
+    <>
+      <div>
+        <Sidenav />
+        <Main />
+        <Work />
+        <Projects />
+        <Contact />
+      </div>
+    </>
   )
 }
 
