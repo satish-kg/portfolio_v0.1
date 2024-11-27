@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectItem from './ProjectItem'
 import placeholder1 from '../assets/pizza_thumb.png'
 import placeholder2 from '../assets/meme_thumb.png'
-import placeholder3 from '../assets/mgs3.jpg'
+import placeholder3 from '../assets/cre-graph.png'
 import placeholder4 from '../assets/calculator_thumb.png'
 
 const Projects = () => {
@@ -13,7 +13,7 @@ const Projects = () => {
             <div className='grid sm:grid-cols-2 gap-12'>
                 <ProjectItem img={placeholder1} title='Pizza Store' console= 'Next.js and MongoDB Atlas based application with CRUD functionality.' url="https://pizzastore-snowy.vercel.app/"/>
                 <ProjectItem img={placeholder2} title='Meme Maker' console='React Vite based application. User can enter text and download the meme.'  url="https://peppy-bunny-524ca6.netlify.app/"/>
-                <ProjectItem img={placeholder3} title='Project 3' console='PS2'  url=""/>
+                <ProjectItem img={placeholder3} title='Excel to JSON' console='A MERN app, users can upload an Excel file and data is converted in JSON format and then visualized to compare easily.'  url="https://github.com/satish-kg/excel2json"/>
                 <ProjectItem img={placeholder4} title='Calculator' console='A super simple JavaScript calculator.'  url="https://vocal-narwhal-913661.netlify.app/"/>
             </div>
         </div>
