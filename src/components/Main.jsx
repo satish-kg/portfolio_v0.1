@@ -1,7 +1,7 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import bg_image from '../assets/zojiLa_bg.jpg';
-import {FaTwitter, FaLinkedinIn, FaInstagram, FaFacebook} from 'react-icons/fa';
+import {FaTwitter, FaLinkedinIn, FaInstagram, FaGithub} from 'react-icons/fa';
 
 const Main = () => {
     return (
@@ -28,10 +28,18 @@ const Main = () => {
                         />
                     </h2>
                     <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-                        <FaLinkedinIn className='cursor-pointer' size={20} />
-                        <FaTwitter className='cursor-pointer' size={20}/>
-                        <FaInstagram className='cursor-pointer' size={20}/>
-                        <FaFacebook className='cursor-pointer' size={20}/>
+                        <a href="https://www.linkedin.com/in/satish-kumar-gupta-876305150/" target="_blank" rel="noopener noreferrer">
+                            <FaLinkedinIn className='cursor-pointer' size={20} />
+                        </a>
+                        <a href="https://x.com/itssatishkg/" target="_blank" rel="noopener noreferrer">
+                            <FaTwitter className='cursor-pointer' size={20}/>
+                        </a>
+                        <a href="https://github.com/satish-kg/" target="_blank" rel="noopener noreferrer">
+                            <FaGithub className='cursor-pointer' size={20}/>
+                        </a>
+                        <a href="https://www.instagram.com/itssatishkr/" target="_blank" rel="noopener noreferrer">
+                            <FaInstagram className='cursor-pointer' size={20}/>
+                        </a>
                     </div>
                 </div>
             </div>

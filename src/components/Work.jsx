@@ -4,28 +4,34 @@ import WorkItem from "./WorkItem";
 // move the data into a separate component
 const data = [
     {
-        year : 2022,
-        title : 'Title 1',
-        duration : '3 months',
+        year : 2024,
+        title : 'Full Stack Developer Intern at Techno Experts',
+        duration : 'April - Present',
+        details : 'Single-handedly developed an small-scale banking app using MERN stack. Build several prototypes for product research & development.'
+    },
+    {
+        year : 2023,
+        title : 'Post Graduation at University of Allahabad',
+        duration : '2 years',
         details : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.'
     },
     {
         year : 2021,
-        title : 'Title 2',
-        duration : '3 months',
-        details : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.'
+        title : 'Assistant Engineer at Samsung Display Noida',
+        duration : '10 months',
+        details : 'Led data collection and processing efforts, anomaly detection and was part of team which was directly involved in production of India’s 1st AMOLED panels.'
     },
     {
         year : 2020,
-        title : 'Title 3',
-        duration : '3 months',
-        details : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.'
+        title : 'Completed Bachelor of Technology',
+        duration : '4 years',
+        details : 'Graduated from GGSIPU with 7.19 CGPA with specialization in Electronics and Communication Engineering.'
     },
     {
         year : 2019,
-        title : 'Title 4',
-        duration : '3 months',
-        details : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.'
+        title : 'Plant Operations Intern at IPGCL PPCL',
+        duration : '1 months',
+        details : 'Implemented adn learnt about Brayton cycle and Rankine cycle, power plant operations, combined power cycle and various practical challenges faced by team.'
     }
 ];
 
