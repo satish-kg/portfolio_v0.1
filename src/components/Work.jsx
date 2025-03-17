@@ -5,8 +5,14 @@ import WorkItem from "./WorkItem";
 const data = [
     {
         year : 2024,
+        title : 'Full-time Software Developer at LogicSoft International Pvt. Ltd.',
+        duration : 'December 2024 - Present',
+        details : 'Worked on react-native and PostgreSQL based web applications, currently working on react-native based mobile applications.'
+    },
+    {
+        year : 2024,
         title : 'Full Stack Developer Intern at Techno Experts',
-        duration : 'April - Present',
+        duration : 'April - October 2024',
         details : 'Single-handedly developed an small-scale banking app using MERN stack. Build several prototypes for product research & development.'
     },
     {
