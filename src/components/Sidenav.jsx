@@ -28,7 +28,7 @@ const Sidenav = () => {
                             <AiOutlineProject size={20}/>
                             <span className="pl-4">Project</span>
                         </a>
-                        <a onClick={handleNav} href="https://drive.google.com/file/d/1Ae7sTrP0cFANXMJVc9nYIYBWVNwuB-3_/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="w-[75%] m-2 flex justify-center items-center rounded-full shadow shadow-gray-400 p-4 bg-gray-100 text-lg font-bold cursor-pointer hover:bg-gray-200 hover:scale-110 ease-in duration-300">
+                        <a onClick={handleNav} href="https://drive.google.com/file/d/1ZDeYg-f8YzlUYHpB9S2RydS4OjTe9zFN/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="w-[75%] m-2 flex justify-center items-center rounded-full shadow shadow-gray-400 p-4 bg-gray-100 text-lg font-bold cursor-pointer hover:bg-gray-200 hover:scale-110 ease-in duration-300">
                             <BsPerson size={20}/>
                             <span className="pl-4">Resume</span>
                         </a>
