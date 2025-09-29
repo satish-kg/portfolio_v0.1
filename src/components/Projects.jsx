@@ -3,7 +3,7 @@ import ProjectItem from './ProjectItem'
 import placeholder1 from '../assets/pizza_thumb.png'
 import placeholder2 from '../assets/meme_thumb.png'
 import placeholder3 from '../assets/cre-graph.png'
-import placeholder4 from '../assets/calculator_thumb.png'
+import placeholder4 from '../assets/sentiment_anal.png'
 
 const Projects = () => {
     return (
